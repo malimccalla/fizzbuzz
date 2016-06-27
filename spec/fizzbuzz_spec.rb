@@ -18,4 +18,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(1)).to eq(1)
   end
 
+  it 'returns "fizz" when number is divisible by 3 but not 5' do
+    expect(fizzbuzz(36)).to eq("fizz")
+    expect(fizzbuzz(234234123123)).to eq("fizz")
+  end
+
 end
