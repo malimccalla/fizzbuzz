@@ -39,4 +39,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz("STRNIG")).to eq("Not a valid number")
   end
 
+  it 'returns "Not a valid number" if no argument is given' do
+    expect(fizzbuzz()).to eq("Not a valid number")
+  end
+
 end
