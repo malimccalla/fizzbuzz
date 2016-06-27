@@ -20,12 +20,10 @@ describe 'fizzbuzz' do
 
   it 'returns "fizz" when number is divisible by 3 but not 5' do
     expect(fizzbuzz(36)).to eq("fizz")
-    expect(fizzbuzz(234234123123)).to eq("fizz")
   end
 
   it 'returns "buzz" when number is divisible by 5 but not 3' do
     expect(fizzbuzz(20)).to eq("buzz")
-    expect(fizzbuzz(234234123125)).to eq("buzz")
   end
 
   it 'returns "fizzbuzz" when number is divisible by 5 and 3' do
