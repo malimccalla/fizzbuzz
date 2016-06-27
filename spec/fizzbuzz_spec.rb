@@ -34,4 +34,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(2)).to eq(2)
   end
 
+  it 'returns "Not a valid number" if input is not a number' do
+    expect(fizzbuzz("hegvetb")).to eq("Not a valid number")
+  end
+
 end
