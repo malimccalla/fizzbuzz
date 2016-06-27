@@ -1,6 +1,6 @@
 require 'fizzbuzz_class'
 
-describe 'fizzbuzz' do
+describe 'fizzbuzz_class' do
 
   it 'returns "fizz" when passed 3' do
     expect(3.fizzbuzz).to eq("fizz")
