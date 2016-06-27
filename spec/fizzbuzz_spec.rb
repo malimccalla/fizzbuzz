@@ -43,4 +43,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz()).to eq("Not a valid number")
   end
 
+  it 'returns "Please only input one argument" if multiple arguments are given' do
+    expect(fizzbuzz(4,4)).to eq("Please only input one argument")
+  end
+
 end
