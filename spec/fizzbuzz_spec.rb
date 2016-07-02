@@ -47,4 +47,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4,4)).to eq("Please only input one argument")
   end
 
+  it 'returns "No decimal numbers allowed" if Float is given' do
+    expect(fizzbuzz(2.2)).to eq ("No decimal numbers allowed")
+  end
+
 end
